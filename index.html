@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>FLEX + GIRD ASSIGNMENT</title>
+</head>
+<style>
+    .main {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }   
+    .main {
+        display: flex;
+        gap: 20px;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .left-sidebar {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        border-radius: 8px;
+        padding: 20px 40px 20px 40px;
+        
+    }
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 15px;
+    }
+    .middle {
+        background-color: lightblue;
+        border-radius: 10px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+        .right-sidebar {
+        background-color: rgb(228, 228, 228);
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        border-radius: 8px;
+        padding: 20px 40px 20px 40px;
+        margin-left: 15px;
+    }
+
+</style>
+<body> 
+    <div class="main">
+        <div class="left-sidebar">
+            Left
+        </div>
+        <div class="grid">
+            <div class="middle">1</div>
+            <div class="middle">2</div>
+            <div class="middle">3</div>
+            <div class="middle">4</div>
+            <div class="middle">5</div>
+            <div class="middle">6</div>
+        </div>
+        <div class="right-sidebar">
+            Right
+        </div>
+    </div>
+</body>
+</html>
